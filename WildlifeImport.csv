@@ -1,0 +1,47 @@
+Animal ID,Animal name,Gender,Year of arrival,Species ID,Species type,Species group,Lifestyle,Conservation Status,Diet ID,Diet type,No of feeds per day,Keeper ID,Keeper name,Keeper DoB,Keeper rank,Enclosure ID,Enclosure type,Enclosure location
+A3,Geoffrey,M,2018,S3,Gorilla,Mammal,Troop,Threatened,D1,Omnivore,6,K1,Dave,18-06-64,Senior,E2,Glass,North
+A4,Oliver,M,2011,S4,Orang-utan,Mammal,Solitary,Critically Endangered,D1,Omnivore,6,K1,Dave,18-06-64,Senior,E1,Moat,North
+A6,Roger,M,2000,S6,Rhinoceros,Mammal,Solitary,Critically Endangered,D2,Herbivore,6,K2,Kayden,21-01-85,Junior,E3,Fence,South
+A7,Clive,M,2013,S7,Crocodile,Reptile,Social,Vulnerable,D3,Carnivore,4,K2,Kayden,21-01-85,Junior,E3,Fence,South
+A8,Eddie,M,2016,S8,Elephant,Mammal,Herd,Threatened,D2,Herbivore,6,K2,Kayden,21-01-85,Junior,E4,Walled,South
+A9,Arnie,M,2012,S9,Armadillo,Mammal,Solitary,Endangered,D1,Omnivore,1,K2,Kayden,21-01-85,Junior,E5,Pen,South
+A10,Gavin,M,2015,S10,Giant Tortoise,Reptile,Herd,Vulnerable,D2,Herbivore,1,K2,Kayden,21-01-85,Junior,E5,Pen,South
+A11,Lucy,F,2011,S11,Lion,Mammal,Pride,Vulnerable,D3,Carnivore,3,K3,Suki,09-08-98,Standard,E4,Walled,East
+A12,Robbie,M,2017,S12,Raccoon,Mammal,Solitary,Least Concern,D1,Omnivore,2,K3,Suki,09-08-98,Standard,E5,Pen,East
+A13,Laura,F,2018,S13,Leopard,Mammal,Solitary,Threatened,D3,Carnivore,4,K3,Suki,09-08-98,Standard,E3,Fence,East
+A14,Casey,F,2013,S14,Chinchilla,Mammal,Solitary,Endangered,D2,Herbivore,2,K3,Suki,09-08-98,Standard,E5,Pen,East
+A15,Trevor,M,2000,S15,Tamarin,Mammal,Troop,Critically Endangered,D1,Omnivore,4,K3,Suki,09-08-98,Standard,E3,Fence,East
+A16,Polly,F,2017,S16,Penguin,Bird,Group,Threatened,D1,Omnivore,5,K4,Temi,16-04-00,Senior,E2,Glass,West
+A17,Sarah,F,2015,S17,Sea Turtle,Reptile,Solitary,Endangered,D1,Omnivore,3,K4,Temi,16-04-00,Senior,E2,Glass,West
+A18,Stan,M,2018,S18,Sloth,Mammal,Solitary,Endangered,D1,Omnivore,1,K4,Temi,16-04-00,Senior,E3,Fence,West
+A19,Kara,F,2001,S19,Kakapo,Bird,Solitary,Endangered,D2,Herbivore,3,K4,Temi,16-04-00,Senior,E4,Walled,West
+A20,Henry,M,2003,S20,Hippopotamus,Mammal,Herd,Vulnerable,D2,Herbivore,6,K4,Temi,16-04-00,Senior,E3,Fence,West
+A22,Eliza,F,2003,S8,Elephant,Mammal,Herd,Threatened,D2,Herbivore,6,K2,Kayden,21-01-85,Junior,E4,Walled,South
+A23,George,M,2000,,Gorilla,Mammal,Troop,Threatened,D1,Omnivore,6,K1,Dave,18-06-64,Senior,E2,Glass,North
+A24,Carlos,M,2017,,Crocodile,Reptile,Social,Vulnerable,D3,Carnivore,4,K2,Kayden,21-01-85,Junior,E3,Fence,South
+A25,Lenie,F,2015,,Lion,Mammal,Pride,Vulnerable,D3,Carnivore,3,K3,Suki,09-08-98,Standard,E4,Walled,East
+A26,Roberta,F,2018,,Raccoon,Mammal,Solitary,Least Concern,D1,Omnivore,2,K3,Suki,09-08-98,Standard,E5,Pen,East
+A27,Peter,M,2001,,Penguin,Bird,Group,Threatened,D1,Omnivore,5,K4,Temi,16-04-00,Senior,E2,Glass,West
+A28,Percy,M,2003,,Penguin,Bird,Group,Threatened,D1,Omnivore,5,K4,Temi,16-04-00,Senior,E2,Glass,West
+A29,Petal,F,2003,,Penguin,Bird,Group,Threatened,D1,Omnivore,5,K4,Temi,16-04-00,Senior,E2,Glass,West
+A30,Sammie,F,2013,,Sloth,Mammal,Solitary,Endangered,D1,Omnivore,1,K4,Temi,16-04-00,Senior,E3,Fence,West
+A31,Lionel,M,2016,,Lion,Mammal,Pride,Vulnerable,D3,Carnivore,3,K3,Suki,09-08-98,Standard,E4,Walled,East
+A32,Gertrude,F,2012,,Gorilla,Mammal,Troop,Threatened,D1,Omnivore,6,K1,Dave,18-06-64,Senior,E2,Glass,North
+A33,Olive,F,2015,,Orang-utan,Mammal,Solitary,Critically Endangered,D1,Omnivore,6,K1,Dave,18-06-64,Senior,E1,Moat,North
+A34,Ossie,M,2011,,Orang-utan,Mammal,Solitary,Critically Endangered,D1,Omnivore,6,K1,Dave,18-06-64,Senior,E1,Moat,North
+A35,Lena,F,2017,,Leopard,Mammal,Solitary,Threatened,D3,Carnivore,4,K3,Suki,09-08-98,Standard,E3,Fence,East
+A36,Rommy,F,2018,,Rhinoceros,Mammal,Solitary,Critically Endangered,D2,Herbivore,6,K2,Kayden,21-01-85,Junior,E3,Fence,South
+A37,Tulisa,F,2013,,Tamarin,Mammal,Troop,Critically Endangered,D1,Omnivore,4,K3,Suki,09-08-98,Standard,E3,Fence,East
+A38,Chrissie,F,2000,,Crocodile,Reptile,Social,Vulnerable,D3,Carnivore,4,K2,Kayden,21-01-85,Junior,E3,Fence,South
+A39,Elsie,F,2017,,Elephant,Mammal,Herd,Threatened,D2,Herbivore,6,K2,Kayden,21-01-85,Junior,E4,Walled,South
+A40,Colin,M,2015,,Crocodile,Reptile,Social,Vulnerable,D3,Carnivore,4,K2,Kayden,21-01-85,Junior,E3,Fence,South
+A41,Hattie,F,2018,,Hippopotamus,Mammal,Herd,Vulnerable,D2,Herbivore,6,K4,Temi,16-04-00,Senior,E3,Fence,West
+A42,Robbie,M,2017,,Rhinoceros,Mammal,Solitary,Critically Endangered,D2,Herbivore,6,K2,Kayden,21-01-85,Junior,E3,Fence,South
+A43,Luna,F,2018,,Lion,Mammal,Pride,Vulnerable,D3,Carnivore,3,K3,Suki,09-08-98,Standard,E4,Walled,East
+A44,Rebbi,M,2013,,Raccoon,Mammal,Solitary,Least Concern,D1,Omnivore,2,K3,Suki,09-08-98,Standard,E5,Pen,East
+A45,Penni,F,2000,,Penguin,Bird,Group,Threatened,D1,Omnivore,5,K4,Temi,16-04-00,Senior,E2,Glass,West
+A46,Emmie,F,2000,,Elephant,Mammal,Herd,Threatened,D2,Herbivore,6,K2,Kayden,21-01-85,Junior,E4,Walled,South
+A47,Lope,M,2017,,Leopard,Mammal,Solitary,Threatened,D3,Carnivore,4,K3,Suki,09-08-98,Standard,E3,Fence,East
+A48,Cressida,F,2015,,Chinchilla,Mammal,Solitary,Endangered,D2,Herbivore,2,K3,Suki,09-08-98,Standard,E5,Pen,East
+A49,Tommy,M,2018,,Tamarin,Mammal,Troop,Critically Endangered,D1,Omnivore,4,K3,Suki,09-08-98,Standard,E3,Fence,East
+A50,Gareth,M,2017,,Gorilla,Mammal,Troop,Threatened,D1,Omnivore,6,K1,Dave,18-06-64,Senior,E2,Glass,North
