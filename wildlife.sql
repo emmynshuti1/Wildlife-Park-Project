@@ -378,7 +378,7 @@ END;
 INSERT INTO Animals
     (AnimalID, AnimalName, Gender, YearArrived, SpeciesID, DietID, KeeperID, EnclosureID)
 VALUES
-    ('A99', 'TestAnimal', 'M', 2099, 'S3', 'D1', 'K1', 'E1');
+    ('A99', 'TestAnimal', 'M', 2019, 'S3', 'D1', 'K1', 'E1');
 
 -- Confirm the trigger did not insert the row:
 SELECT * FROM Animals WHERE AnimalID = 'A99';
