@@ -106,7 +106,7 @@ CREATE TABLE IF NOT EXISTS Animals (
     CONSTRAINT fk_Enclosure FOREIGN KEY (EnclosureID)
                             REFERENCES Enclosures(EnclosureID),
     CONSTRAINT chk_Gender   CHECK (Gender IN ('M', 'F')),
-    CONSTRAINT chk_Year     CHECK (YearArrived >= 1900 AND YearArrived <= 2026)
+    CONSTRAINT chk_Year     CHECK (YearArrived BETWEEN 1900 AND 2026)
 );
 
 -- ------------------------------------------------------------
@@ -378,7 +378,7 @@ END;
 INSERT INTO Animals
     (AnimalID, AnimalName, Gender, YearArrived, SpeciesID, DietID, KeeperID, EnclosureID)
 VALUES
-    ('A99', 'TestAnimal', 'M', 2099, 'S3', 'D1', 'K1', 'E1');
+    ('A99', 'TestAnimal', 'M', 2019, 'S3', 'D1', 'K1', 'E1');
 
 -- Confirm the trigger did not insert the row:
 SELECT * FROM Animals WHERE AnimalID = 'A99';
@@ -474,14 +474,13 @@ PRAGMA foreign_keys = OFF;
 DELETE FROM Keepers WHERE KeeperID = 'K1';
 
 SELECT * FROM keepers;
--- Restore deleted keeper so the DB is consistent
+
+-- Restore deleted keeper so the Database is consistent
 INSERT INTO Keepers VALUES ('K1', 'Dave', '18-06-64', 'Senior');
 
 SELECT * FROM keepers;
 
-PRAGMA foreign_keys = OFF;
-
-PRAGMA foreign_keys = OFF;
+PRAGMA foreign_keys = ON;
 
 INSERT INTO Animals
     (AnimalID, AnimalName, Gender, YearArrived, SpeciesID, DietID, KeeperID, EnclosureID)
