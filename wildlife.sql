@@ -429,11 +429,14 @@ FROM     Animals a
 JOIN     Keepers k  ON a.KeeperID = k.KeeperID
 WHERE    k.KeeperName IN ('Dave', 'Temi');
 
+
+--Tes 3
 INSERT INTO Animals
     (AnimalID, AnimalName, Gender, YearArrived, SpeciesID, DietID, KeeperID, EnclosureID)
 VALUES
     ('T03', 'TestFuture', 'M', 2019, 'S3', 'D1', 'K1', 'E1');
 
+-- Test 4
 INSERT INTO Animals
     (AnimalID, AnimalName, Gender, YearArrived, SpeciesID, DietID, KeeperID, EnclosureID)
 VALUES
@@ -443,6 +446,7 @@ SELECT * FROM Animals WHERE AnimalID = 'T04';
 
 DELETE FROM Animals WHERE AnimalID = 'T04';
 
+-- Test 5: Valid current year (2026) – this should be ACCEPTED
 INSERT INTO Animals
     (AnimalID, AnimalName, Gender, YearArrived, SpeciesID, DietID, KeeperID, EnclosureID)
 VALUES
@@ -453,9 +457,11 @@ SELECT * FROM Animals WHERE AnimalID = 'T05';
 -- Clean up test record
 DELETE FROM Animals WHERE AnimalID = 'T05';
 
+--Test 11:Invalid Diet record
 INSERT INTO Diet (DietID, DietType, FeedsPerDay)
-VALUES ('T11', 'Herbivore', 2);
+VALUES ('T11', 'Herbivore', -2);
 
+-- Test 12:
 INSERT INTO Diet (DietID, DietType, FeedsPerDay)
 VALUES ('T12', 'Herbivore', 1);
 
@@ -463,12 +469,13 @@ SELECT * FROM Diet WHERE DietID = 'T12';
 
 DELETE FROM Diet WHERE DietID = 'T12';
 
+--Test 15
 INSERT INTO Animals
     (AnimalID, AnimalName, Gender, YearArrived, SpeciesID, DietID, KeeperID, EnclosureID)
 VALUES
     ('T14', 'TriggerTest', 'F', 2005, 'S3', 'D1', 'K1', 'E1');
 
--- Step 1 – WITHOUT foreign key enforcement (shows the problem)
+-- WITHOUT foreign key enforcement (shows the problem)
 PRAGMA foreign_keys = OFF;
 
 DELETE FROM Keepers WHERE KeeperID = 'K1';
@@ -480,6 +487,7 @@ INSERT INTO Keepers VALUES ('K1', 'Dave', '18-06-64', 'Senior');
 
 SELECT * FROM keepers;
 
+-- Test 16
 PRAGMA foreign_keys = ON;
 
 INSERT INTO Animals
